@@ -6,6 +6,10 @@ node_modules
 # Vite cache
 .vite
 
+# IDE and AI assistant directories
+.cursor
+.qodo
+
 # Testing
 /coverage
 
@@ -22,6 +26,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+*.local
 
 # Environment variables
 .env
@@ -40,7 +45,6 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
-*.local
 
 # Optional npm cache directory
 .npm
